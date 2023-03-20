@@ -281,11 +281,27 @@ text-decoration: none;
 .filter-gallery-item {}
 
 .filter-btn-text {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background: #F4F4FD;
+        cursor: pointer;
+}
+
+.filter-btn-text:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.filter-btn-text :focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    
 }
 
 .gallery-list {}
