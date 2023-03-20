@@ -81,7 +81,7 @@ text-decoration: none;
 } 
 
 
-.mailto-contact-header {
+.contact-header {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -89,29 +89,15 @@ text-decoration: none;
     color: #434455;
 }
 
-.mailto-contact-header:hover {
+.contact-header:hover {
     color: var (--color-OCEAN);
 }
 
-.mailto-contact-header:focus {
+.contact-header:focus {
     color: var (--color-OCEAN);
 }
 
-.phone-contact-header {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
-.phone-contact-header:hover {
-    color: var (--color-OCEAN);
-}
-
-.phone-contact-header:focus {
-    color: var (--color-OCEAN);
-}
 
 /**_______________HERO_______________**/
 
