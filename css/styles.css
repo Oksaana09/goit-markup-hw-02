@@ -75,11 +75,6 @@ text-decoration: none;
 } 
 
 .mailto-header {
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -92,11 +87,6 @@ text-decoration: none;
 }
 
 .phone-header {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
