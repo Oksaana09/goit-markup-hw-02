@@ -90,7 +90,7 @@ text-decoration: none;
     color: #434455;
 }
 
-.mailto-address-header:is(:hover, :focus){
+.mailto-header:is(:hover, :focus){
     color: var (--color-OCEAN);
 }
 .phone-header {
@@ -101,7 +101,7 @@ text-decoration: none;
     color: #434455;
 }
 
-.phone-address-header:is(:hover, :focus) {
+.phone-header:is(:hover, :focus) {
     color: var (--color-OCEAN);
 }
 
