@@ -1,5 +1,6 @@
 body {
 font-family: "Roboto", sans-serif;
+font-style: normal;
 color: #434455; 
 background-color: #FFFFFF;
 }
@@ -27,7 +28,6 @@ text-decoration: none;
 
 .header-logo-web {
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -39,7 +39,6 @@ text-decoration: none;
 }
 .logos {
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -67,7 +66,7 @@ text-decoration: none;
     color: #2E2F42;
 }
 
-.link-header:is(:hover, :focus){
+.link-header:is(:hover, :focus) {
 color: #4D5AE5 
 }
 
@@ -84,6 +83,10 @@ color: #4D5AE5
     color: #434455;
 }
 
+.mailto-header:is(:hover, :focus){
+    color: #4D5AE5
+}
+
 .phone-header {
     position: absolute;
     width: 151px;
@@ -97,6 +100,10 @@ color: #4D5AE5
     color: #434455;
 }
 
+.phone-header:is(:hover, :focus) {
+    color: #4D5AE5
+}
+
 /**_______________HERO_______________**/
 
 .hero {
@@ -107,11 +114,13 @@ color: #4D5AE5
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
