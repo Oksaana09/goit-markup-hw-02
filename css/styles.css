@@ -143,11 +143,11 @@ text-decoration: none;
 }
 
 .hero-btn:hover {   
-    color: #404bbf;
+    background-color: #404BBF;
 }
 
 .hero-btn:focus {
-    color: #404bbf;
+    background-color: #404BBF;
 }
 
 
@@ -170,7 +170,7 @@ text-decoration: none;
 .about-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -179,21 +179,25 @@ text-decoration: none;
 
 .products {}
 
-.Products-title {
+.products-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
 }
 
-.Products-list {}
+.products-list {}
 
-.Products-item {}
+.products-item {}
 
 /**_______________TEAM_______________**/
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
     font-weight: 700;
@@ -201,6 +205,8 @@ text-decoration: none;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
 }
 
 .team-list {}
