@@ -78,7 +78,7 @@ text-decoration: none;
 } 
 
 
-.mailto-header {
+.mailto-contact-header {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -86,15 +86,15 @@ text-decoration: none;
     color: #434455;
 }
 
-.mailto-header:hover {
+.mailto-contact-header:hover {
     color: var (--color-OCEAN);
 }
 
-.mailto-header:focus {
+.mailto-contact-header:focus {
     color: var (--color-OCEAN);
 }
 
-.phone-header {
+.phone-contact-header {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -102,11 +102,11 @@ text-decoration: none;
     color: #434455;
 }
 
-.phone-header:hover {
+.phone-contact-header:hover {
     color: var (--color-OCEAN);
 }
 
-.phone-header:focus {
+.phone-contact-header:focus {
     color: var (--color-OCEAN);
 }
 
