@@ -70,11 +70,11 @@ text-decoration: none;
 }
 
 .link-header:hover, :hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .link-header:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .contact-header {
     font-style: normal;
@@ -90,12 +90,12 @@ text-decoration: none;
 }
 
 .mailto-contact-header:hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .mailto-contact-header:focus {
-    color: #4D5AE5;
-    }
+    color: #404bbf;
+}
 
 
 .phone-contact-header {
@@ -107,11 +107,11 @@ text-decoration: none;
 }
 
 .phone-contact-header:hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .phone-contact-header:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 /**_______________HERO_______________**/
