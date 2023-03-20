@@ -11,7 +11,7 @@ background-color: #FFFFFF;
     --logo-color: #2E2F42;
 }
 
-
+    
 .list {
     list-style: none;
 }
@@ -70,18 +70,18 @@ text-decoration: none;
 }
 
 .link-header:hover, :hover {
-    color: var (--color-OCEAN);
+    color: #4D5AE5;
 }
 
 .link-header:focus {
-    color: var (--color-OCEAN);
+    color: #4D5AE5;
 }
 .contact-header {
     font-style: normal;
 } 
 
 
-.contact-header {
+.mailto-contact-header {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -89,15 +89,30 @@ text-decoration: none;
     color: #434455;
 }
 
-.contact-header:hover {
-    color: var (--color-OCEAN);
+.mailto-contact-header:hover {
+    color: #4D5AE5;
 }
 
-.contact-header:focus {
-    color: var (--color-OCEAN);
+.mailto-contact-header:focus {
+    color: #4D5AE5;
+    }
+
+
+.phone-contact-header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
+.phone-contact-header:hover {
+    color: #4D5AE5;
+}
 
+.phone-contact-header:focus {
+    color: #4D5AE5;
+}
 
 /**_______________HERO_______________**/
 
