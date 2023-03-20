@@ -67,8 +67,12 @@ text-decoration: none;
 }
 
 .link-header:is(:hover, :focus) {
-color: #4D5AE5 
+    color: #404bbf 
 }
+
+.contact-header {
+    font-style: normal;
+} 
 
 .mailto-header {
     position: absolute;
@@ -84,7 +88,7 @@ color: #4D5AE5
 }
 
 .mailto-header:is(:hover, :focus){
-    color: #4D5AE5
+    color: #404bbf
 }
 
 .phone-header {
@@ -101,7 +105,7 @@ color: #4D5AE5
 }
 
 .phone-header:is(:hover, :focus) {
-    color: #4D5AE5
+    color: #404bbf
 }
 
 /**_______________HERO_______________**/
