@@ -55,11 +55,6 @@ text-decoration: none;
 }
 
 
-
-.list-header {
-
-}
-
 .item-header {
 }
 
@@ -71,16 +66,17 @@ text-decoration: none;
     color: #2E2F42;
 }
 
-.link-header:is(:hover, :focus) {
+.link-header:hover, :hover {
     color: var (--color-OCEAN);
 }
 
+.link-header:focus {
+    color: var (--color-OCEAN);
+}
 .contact-header {
     font-style: normal;
 } 
 
-.list-address-header{
-}
 
 .mailto-header {
     font-weight: 400;
@@ -90,9 +86,14 @@ text-decoration: none;
     color: #434455;
 }
 
-.mailto-header:is(:hover, :focus){
+.mailto-header:hover {
     color: var (--color-OCEAN);
 }
+
+.mailto-header:focus {
+    color: var (--color-OCEAN);
+}
+
 .phone-header {
     font-weight: 400;
     font-size: 16px;
@@ -101,7 +102,11 @@ text-decoration: none;
     color: #434455;
 }
 
-.phone-header:is(:hover, :focus) {
+.phone-header:hover {
+    color: var (--color-OCEAN);
+}
+
+.phone-header:focus {
     color: var (--color-OCEAN);
 }
 
