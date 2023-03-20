@@ -242,7 +242,7 @@ text-decoration: none;
 }
 
 .footer-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -256,6 +256,8 @@ text-decoration: none;
 }
 
 .footer-logostudio {
+    width: 71px;
+    height: 21px;
     font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -266,8 +268,6 @@ text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-    width: 71px;
-    height: 21px;
 }
 
 /**_______________GALLERY_______________**/
