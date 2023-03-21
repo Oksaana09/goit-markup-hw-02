@@ -1,8 +1,8 @@
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
-color: #434455; 
-background-color: #FFFFFF;
+color:var(--color-body) ; 
+background-color:var(--brand-color-btn-1);
 }
 
 :root {
@@ -196,7 +196,7 @@ text-decoration: none;
 /**_______________TEAM_______________**/
 
 .team {
-    background-color: #FFFFFF
+    background-color: #F4F4FD
 }
 
 .team-title {
@@ -209,7 +209,9 @@ text-decoration: none;
     color: #2E2F42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -242,7 +244,7 @@ text-decoration: none;
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -258,7 +260,7 @@ text-decoration: none;
 .footer-logostudio {
     width: 71px;
     height: 21px;
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
