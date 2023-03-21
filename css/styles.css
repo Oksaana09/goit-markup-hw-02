@@ -88,7 +88,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
 
 .contact-link:hover {
@@ -159,7 +159,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
 
 /**_______________PRODUCTS_______________**/
@@ -213,7 +213,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
 
 /**_______________FOOTER_______________**/
@@ -305,5 +305,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
