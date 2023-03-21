@@ -297,14 +297,9 @@ text-decoration: none;
         cursor: pointer;
 }
 
-.filter-btn-text:hover {
+.filter-btn-text:is(:hover :focus) {
     background-color: #404BBF;
     color: #FFFFFF;
-}
-
-.filter-btn-text :focus {
-    color: #FFFFFF; 
-    background-color: #404BBF;
 }
 
 .gallery-list {}
