@@ -1,3 +1,9 @@
+:root {
+    --main-background-color: #FFFFFF;
+    --second-color: #4D5AE5;
+    --logo-color: #2E2F42;
+}
+
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
