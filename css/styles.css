@@ -211,7 +211,7 @@ text-decoration: none;
     color: #2E2F42;
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF
 }
 
@@ -303,8 +303,8 @@ text-decoration: none;
 }
 
 .filter-btn-text :focus {
+    color: #FFFFFF; 
     background-color: #404BBF;
-    color: #FFFFFF;  
 }
 
 .gallery-list {}
