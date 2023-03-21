@@ -303,7 +303,8 @@ text-decoration: none;
         cursor: pointer;
 }
 
-.filter-btn-text:is(:hover :focus) {
+.filter-btn-text:hover,
+.filter-btn-text:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
