@@ -2,7 +2,7 @@ body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
 color: #434455; 
-background-color:#FFFFFF
+background-color:#FFFFFF;
 }
 
 :root {
@@ -60,6 +60,7 @@ text-decoration: none;
 
 
 .item-header {
+    background-color: #FFFFFF
 }
 
 .link-header {
