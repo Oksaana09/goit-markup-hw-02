@@ -8,8 +8,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
+    color: #434455;  
 }
     
 .list {
