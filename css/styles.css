@@ -24,7 +24,7 @@ text-decoration: none;
 /**______________________HEADER________________**/
  
 .header {
-    background: #FFFFFF;
+    background: var(--main-background-color);
 }
 
 .nav-header {
@@ -60,7 +60,7 @@ text-decoration: none;
 
 
 .item-header {
-    background-color: #FFFFFF
+    background-color: var(--main-background-color);
 }
 
 .link-header {
@@ -183,7 +183,7 @@ text-decoration: none;
 /**_______________TEAM_______________**/
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -197,7 +197,7 @@ text-decoration: none;
 }
 
 .team-item {
-    background-color: #FFFFFF
+    background-color: var(--main-background-color);
 }
 
 .team-subtitle {
