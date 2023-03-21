@@ -8,16 +8,9 @@
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
-color: #434455;
-background-color:#FFFFFF
+color:var(--text-color)
+background-color:var(var(--main-background-color))
 }
-
-:root {
-    --main-background-color: #FFFFFF;
-    --second-color: #4D5AE5;
-    --logo-color: #2E2F42;
-}
-
     
 .list {
     list-style: none;
