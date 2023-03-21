@@ -20,6 +20,7 @@ background-color:var(--brand-color-btn-1);
 text-decoration: none;
 }
 
+
 /**______________________HEADER________________**/
  
 .header {
@@ -302,8 +303,7 @@ text-decoration: none;
 
 .filter-btn-text :focus {
     background-color: #404BBF;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
 }
 
 .gallery-list {}
@@ -320,8 +320,8 @@ text-decoration: none;
 
 .gallery-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
