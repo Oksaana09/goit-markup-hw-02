@@ -1,8 +1,8 @@
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
-color:var(--color-body) ; 
-background-color:var(--brand-color-btn-1);
+color: #434455; 
+background-color:#FFFFFF
 }
 
 :root {
@@ -313,7 +313,7 @@ text-decoration: none;
 .gallery-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
