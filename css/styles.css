@@ -2,13 +2,14 @@
     --main-background-color: #FFFFFF;
     --second-color: #4D5AE5;
     --logo-color: #2E2F42;
+    --text-color: #434455;
 }
 
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
-color: #434455; 
-background-color:#FFFFFF;
+color:var(--text-color) 
+background-color:var(var(--main-background-color))
 }
 
 :root {
@@ -89,7 +90,7 @@ text-decoration: none;
 } 
 
 
-.mailto-contact-header {
+.contact-link  {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -97,30 +98,15 @@ text-decoration: none;
     color: #434455;
 }
 
-.mailto-contact-header:hover {
+.contact-link:hover {
     color:#404BBF;
 }
 
-.mailto-contact-header:focus {
+.contact-link:focus {
     color:#404BBF;
 }
 
 
-.phone-contact-header {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.phone-contact-header:hover {
-    color:#404bbf;
-}
-
-.phone-contact-header:focus {
-    color: #404bbf;
-}
 
 /**_______________HERO_______________**/
 
