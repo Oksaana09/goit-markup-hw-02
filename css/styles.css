@@ -23,7 +23,7 @@ body {
 /**______________________HEADER________________**/
  
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
 .nav-header {
@@ -39,7 +39,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--second-color);
   
 }
 .header-logostudio {
@@ -59,7 +59,7 @@ body {
 
 
 .item-header {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
 .link-header {
@@ -87,7 +87,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 .contact-link:hover {
@@ -158,7 +158,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 /**_______________PRODUCTS_______________**/
@@ -196,7 +196,7 @@ body {
 }
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
 .team-subtitle {
@@ -212,7 +212,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 /**_______________FOOTER_______________**/
@@ -239,7 +239,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--second-color);
 
 }
 
@@ -276,7 +276,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--second-color);
     background-color: #F4F4FD;
     cursor: pointer;
 }
@@ -304,5 +304,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
